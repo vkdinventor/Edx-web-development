@@ -11,6 +11,7 @@ figure {
     display: none;
     align-content: center;
 
+    
 }
 
 .visible {
@@ -110,4 +111,22 @@ article {
     main  h3 {
         color: black
     }
+}
+
+@font-face {
+    font-family: 'News Cycle';
+    src: url('../fonts/news_cycle.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Contrail One';
+    src: url('../fonts/contrail_one.ttf') format('truetype');
+}
+
+body {
+    font-family: 'News Cycle';
+}
+    
+header {
+    font-family: 'Contrail One';
 }
